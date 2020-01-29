@@ -77,7 +77,9 @@ div.movie {
   flex-direction: column;
   justify-content: space-between;
   margin-bottom: 30px;
+  border-radius: 10px;
   border-bottom: white 1px solid;
+  box-shadow: 0px 0px 12px 2px white;
 }
 
 div.movie h2 {
