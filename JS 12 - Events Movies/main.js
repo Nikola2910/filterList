@@ -165,7 +165,7 @@ function removeMovie() {
   var movieDivs = Array.from(document.querySelectorAll("div.movie"));
 
   movieDivs.forEach(function(element, index) {
-    xBtns[index].addEventListener("click", () => {
+    xBtns[index].addEventListener("click", function() {
       moviesDiv.removeChild(movieDivs[index]);
     });
   });
